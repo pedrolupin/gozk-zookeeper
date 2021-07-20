@@ -11,6 +11,7 @@ package zookeeper
 /*
 #cgo CFLAGS: -I/usr/include/c-client-src -I/usr/include/zookeeper
 #cgo LDFLAGS: -lzookeeper_mt
+#cgo windows LDFLAGS: -lws2_32
 
 #include <zookeeper.h>
 #include "helpers.h"
