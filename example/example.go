@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"launchpad.net/gozk/zookeeper"
 	"log"
+
+	zookeeper "github.com/pedrolupin/gozk-zookeeper"
 )
 
 func main() {

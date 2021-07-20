@@ -2,11 +2,12 @@ package zookeeper_test
 
 import (
 	"io"
-	. "launchpad.net/gocheck"
-	zk "launchpad.net/gozk/zookeeper"
 	"log"
 	"net"
 	"time"
+
+	zk "github.com/pedrolupin/gozk-zookeeper"
+	. "launchpad.net/gocheck"
 )
 
 // requestFuncs holds all the requests that take a read lock

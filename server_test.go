@@ -4,13 +4,14 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
-	. "launchpad.net/gocheck"
-	zk "launchpad.net/gozk/zookeeper"
 	"os"
 	"os/exec"
 	"strings"
 	"testing"
 	"time"
+
+	zk "github.com/pedrolupin/gozk-zookeeper"
+	. "launchpad.net/gocheck"
 )
 
 var reattach = flag.Bool("zktest.reattach", false, "internal flag used for testing")

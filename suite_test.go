@@ -2,11 +2,12 @@ package zookeeper_test
 
 import (
 	"fmt"
-	. "launchpad.net/gocheck"
-	zk "launchpad.net/gozk/zookeeper"
 	"os"
 	"testing"
 	"time"
+
+	zk "github.com/pedrolupin/gozk-zookeeper"
+	. "launchpad.net/gocheck"
 )
 
 func TestAll(t *testing.T) {
